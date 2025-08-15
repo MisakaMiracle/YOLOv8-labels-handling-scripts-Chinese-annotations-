@@ -1,5 +1,8 @@
 import os
 import subprocess
+#这个脚本用于修复labelimg软件遇到损坏的标签文件时闪退，并出现报错ValueError: not enough values to unpack (expected 5, got 1)的情况。
+#This script is used to fix the labelimg software crashing when encountering damaged label files, and displaying 
+# "the error ValueError: not enough values to unpack (expected 5, got 1)."
 
 def is_bad_label_file(filepath):
     try:
